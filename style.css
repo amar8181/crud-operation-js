@@ -1,0 +1,75 @@
+body {
+    background-image: url(—Pngtree—blue\ carbon\ background\ with\ sport_1200848.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+table {
+    width: 80%;
+    margin: 40px auto;
+    background: rgb(147, 140, 211);
+}
+
+table.list {
+    text-align: center;
+    width: 100%;
+}
+
+td {
+    border: 1px solid gray;
+    text-align: left;
+    padding: 8px 15px;
+}
+
+tr:nth-child(even),
+table.list thead>tr {
+    background-color: whitesmoke;
+}
+
+input[type="text"],
+input[type="number"] {
+    width: 95%;
+    padding: 12px 20px;
+    margin: 15px 0 10px;
+    display: inline-block;
+    border: 1px solid lightgrey;
+    border-radius: 4px;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    background: white;
+    padding: 6px 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+}
+
+input[type="submit"]:hover{
+    background: rgb(54, 54, 189);
+}
+
+input[type="reset"]:hover{
+    background: rgb(54, 54, 189);
+}
+
+button{
+    background: white;
+    padding: 6px 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+}
+
+button:hover{
+    background: rgb(54, 54, 189);
+}
